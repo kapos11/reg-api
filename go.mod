@@ -1,4 +1,4 @@
-module reg-apis
+module reg-api
 
 go 1.24.6
 
