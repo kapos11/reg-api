@@ -22,6 +22,6 @@ func main() {
 	// تعريف الـ endpoints
 	router.POST("/register", handlers.RegisterHandler)
 
-	log.Println("Server running on :8080")
-	log.Fatal(router.Run(":8080"))
+	log.Println("Server running on :8081")
+	log.Fatal(router.Run(":8081"))
 }
